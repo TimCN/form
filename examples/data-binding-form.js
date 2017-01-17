@@ -1,14 +1,14 @@
-webpackJsonp([3],{
+webpackJsonp([4],{
 
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(260);
+	module.exports = __webpack_require__(280);
 
 
 /***/ },
 
-/***/ 160:
+/***/ 179:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -17,19 +17,19 @@ webpackJsonp([3],{
 	  value: true
 	});
 	
-	var _src = __webpack_require__(161);
+	var _src = __webpack_require__(180);
 	
 	var form = _interopRequireWildcard(_src);
 	
-	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj["default"] = obj; return newObj; } }
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
-	exports["default"] = form; // export this package's api
+	exports.default = form; // export this package's api
 	
 	module.exports = exports['default'];
 
 /***/ },
 
-/***/ 161:
+/***/ 180:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39,17 +39,17 @@ webpackJsonp([3],{
 	});
 	exports.createForm = undefined;
 	
-	var _createForm = __webpack_require__(162);
+	var _createForm = __webpack_require__(181);
 	
 	var _createForm2 = _interopRequireDefault(_createForm);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	exports.createForm = _createForm2["default"]; // export this package's api
+	exports.createForm = _createForm2.default; // export this package's api
 
 /***/ },
 
-/***/ 244:
+/***/ 258:
 /***/ function(module, exports) {
 
 	'use strict';
@@ -71,7 +71,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 247:
+/***/ 266:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -80,11 +80,11 @@ webpackJsonp([3],{
 	  value: true
 	});
 	
-	var _createContainer = __webpack_require__(248);
+	var _createContainer = __webpack_require__(267);
 	
-	var _createRootContainer = __webpack_require__(258);
+	var _createRootContainer = __webpack_require__(278);
 	
-	var _Store = __webpack_require__(259);
+	var _Store = __webpack_require__(279);
 	
 	exports.createContainer = _createContainer.createContainer;
 	exports.createRootContainer = _createRootContainer.createRootContainer;
@@ -92,7 +92,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 248:
+/***/ 267:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -115,7 +115,7 @@ webpackJsonp([3],{
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var _shallowequal = __webpack_require__(249);
+	var _shallowequal = __webpack_require__(268);
 	
 	var _shallowequal2 = _interopRequireDefault(_shallowequal);
 	
@@ -123,11 +123,11 @@ webpackJsonp([3],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reselect = __webpack_require__(254);
+	var _reselect = __webpack_require__(273);
 	
-	var _utils = __webpack_require__(255);
+	var _utils = __webpack_require__(274);
 	
-	var _createEmptyContainer = __webpack_require__(257);
+	var _createEmptyContainer = __webpack_require__(277);
 	
 	function createSelectGetter(s) {
 	  return function (state) {
@@ -271,12 +271,12 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 249:
+/***/ 268:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var fetchKeys = __webpack_require__(250);
+	var fetchKeys = __webpack_require__(269);
 	
 	module.exports = function shallowEqual(objA, objB, compare, compareContext) {
 	
@@ -325,7 +325,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 250:
+/***/ 269:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -336,9 +336,9 @@ webpackJsonp([3],{
 	 * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 * Available under MIT license <https://lodash.com/license>
 	 */
-	var getNative = __webpack_require__(251),
-	    isArguments = __webpack_require__(252),
-	    isArray = __webpack_require__(253);
+	var getNative = __webpack_require__(270),
+	    isArguments = __webpack_require__(271),
+	    isArray = __webpack_require__(272);
 	
 	/** Used to detect unsigned integer values. */
 	var reIsUint = /^\d+$/;
@@ -568,7 +568,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 251:
+/***/ 270:
 /***/ function(module, exports) {
 
 	/**
@@ -712,16 +712,16 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 252:
+/***/ 271:
 /***/ function(module, exports) {
 
 	/**
-	 * lodash 3.0.8 (Custom Build) <https://lodash.com/>
+	 * lodash (Custom Build) <https://lodash.com/>
 	 * Build: `lodash modularize exports="npm" -o ./`
-	 * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+	 * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+	 * Released under MIT license <https://lodash.com/license>
 	 * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
-	 * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-	 * Available under MIT license <https://lodash.com/license>
+	 * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	 */
 	
 	/** Used as references for various `Number` constants. */
@@ -739,7 +739,8 @@ webpackJsonp([3],{
 	var hasOwnProperty = objectProto.hasOwnProperty;
 	
 	/**
-	 * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+	 * Used to resolve the
+	 * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
 	 * of values.
 	 */
 	var objectToString = objectProto.toString;
@@ -748,38 +749,15 @@ webpackJsonp([3],{
 	var propertyIsEnumerable = objectProto.propertyIsEnumerable;
 	
 	/**
-	 * The base implementation of `_.property` without support for deep paths.
-	 *
-	 * @private
-	 * @param {string} key The key of the property to get.
-	 * @returns {Function} Returns the new function.
-	 */
-	function baseProperty(key) {
-	  return function(object) {
-	    return object == null ? undefined : object[key];
-	  };
-	}
-	
-	/**
-	 * Gets the "length" property value of `object`.
-	 *
-	 * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
-	 * that affects Safari on at least iOS 8.1-8.3 ARM64.
-	 *
-	 * @private
-	 * @param {Object} object The object to query.
-	 * @returns {*} Returns the "length" value.
-	 */
-	var getLength = baseProperty('length');
-	
-	/**
 	 * Checks if `value` is likely an `arguments` object.
 	 *
 	 * @static
 	 * @memberOf _
+	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isArguments(function() { return arguments; }());
@@ -789,7 +767,7 @@ webpackJsonp([3],{
 	 * // => false
 	 */
 	function isArguments(value) {
-	  // Safari 8.1 incorrectly makes `arguments.callee` enumerable in strict mode.
+	  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
 	  return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') &&
 	    (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
 	}
@@ -801,6 +779,7 @@ webpackJsonp([3],{
 	 *
 	 * @static
 	 * @memberOf _
+	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
 	 * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
@@ -819,7 +798,7 @@ webpackJsonp([3],{
 	 * // => false
 	 */
 	function isArrayLike(value) {
-	  return value != null && isLength(getLength(value)) && !isFunction(value);
+	  return value != null && isLength(value.length) && !isFunction(value);
 	}
 	
 	/**
@@ -828,9 +807,11 @@ webpackJsonp([3],{
 	 *
 	 * @static
 	 * @memberOf _
+	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is an array-like object, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is an array-like object,
+	 *  else `false`.
 	 * @example
 	 *
 	 * _.isArrayLikeObject([1, 2, 3]);
@@ -854,9 +835,10 @@ webpackJsonp([3],{
 	 *
 	 * @static
 	 * @memberOf _
+	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
-	 * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+	 * @returns {boolean} Returns `true` if `value` is a function, else `false`.
 	 * @example
 	 *
 	 * _.isFunction(_);
@@ -867,8 +849,7 @@ webpackJsonp([3],{
 	 */
 	function isFunction(value) {
 	  // The use of `Object#toString` avoids issues with the `typeof` operator
-	  // in Safari 8 which returns 'object' for typed array and weak map constructors,
-	  // and PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+	  // in Safari 8-9 which returns 'object' for typed array and other constructors.
 	  var tag = isObject(value) ? objectToString.call(value) : '';
 	  return tag == funcTag || tag == genTag;
 	}
@@ -876,10 +857,12 @@ webpackJsonp([3],{
 	/**
 	 * Checks if `value` is a valid array-like length.
 	 *
-	 * **Note:** This function is loosely based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
+	 * **Note:** This method is loosely based on
+	 * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
 	 *
 	 * @static
 	 * @memberOf _
+	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
 	 * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
@@ -903,11 +886,13 @@ webpackJsonp([3],{
 	}
 	
 	/**
-	 * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
-	 * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	 * Checks if `value` is the
+	 * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+	 * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
 	 *
 	 * @static
 	 * @memberOf _
+	 * @since 0.1.0
 	 * @category Lang
 	 * @param {*} value The value to check.
 	 * @returns {boolean} Returns `true` if `value` is an object, else `false`.
@@ -936,6 +921,7 @@ webpackJsonp([3],{
 	 *
 	 * @static
 	 * @memberOf _
+	 * @since 4.0.0
 	 * @category Lang
 	 * @param {*} value The value to check.
 	 * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
@@ -962,7 +948,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 253:
+/***/ 272:
 /***/ function(module, exports) {
 
 	/**
@@ -1149,7 +1135,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 254:
+/***/ 273:
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1266,7 +1252,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 255:
+/***/ 274:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1280,11 +1266,11 @@ webpackJsonp([3],{
 	
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 	
-	var _hoistNonReactStatics = __webpack_require__(165);
+	var _hoistNonReactStatics = __webpack_require__(275);
 	
 	var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 	
-	var _constants = __webpack_require__(256);
+	var _constants = __webpack_require__(276);
 	
 	function getDisplayName(WrappedComponent) {
 	  return WrappedComponent.displayName || WrappedComponent.name || 'WrappedComponent';
@@ -1300,7 +1286,56 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 256:
+/***/ 275:
+/***/ function(module, exports) {
+
+	/**
+	 * Copyright 2015, Yahoo! Inc.
+	 * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+	 */
+	'use strict';
+	
+	var REACT_STATICS = {
+	    childContextTypes: true,
+	    contextTypes: true,
+	    defaultProps: true,
+	    displayName: true,
+	    getDefaultProps: true,
+	    mixins: true,
+	    propTypes: true,
+	    type: true
+	};
+	
+	var KNOWN_STATICS = {
+	    name: true,
+	    length: true,
+	    prototype: true,
+	    caller: true,
+	    arguments: true,
+	    arity: true
+	};
+	
+	module.exports = function hoistNonReactStatics(targetComponent, sourceComponent) {
+	    if (typeof sourceComponent !== 'string') { // don't hoist over string (html) components
+	        var keys = Object.getOwnPropertyNames(sourceComponent);
+	        for (var i=0; i<keys.length; ++i) {
+	            if (!REACT_STATICS[keys[i]] && !KNOWN_STATICS[keys[i]]) {
+	                try {
+	                    targetComponent[keys[i]] = sourceComponent[keys[i]];
+	                } catch (error) {
+	
+	                }
+	            }
+	        }
+	    }
+	
+	    return targetComponent;
+	};
+
+
+/***/ },
+
+/***/ 276:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1316,7 +1351,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 257:
+/***/ 277:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1343,7 +1378,7 @@ webpackJsonp([3],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _utils = __webpack_require__(255);
+	var _utils = __webpack_require__(274);
 	
 	function createEmptyContainer(mapStoreProps, storeName) {
 	  return function create(WrappedComponent) {
@@ -1373,7 +1408,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 258:
+/***/ 278:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1396,13 +1431,13 @@ webpackJsonp([3],{
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var _Store = __webpack_require__(259);
+	var _Store = __webpack_require__(279);
 	
 	var _react = __webpack_require__(2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _constants = __webpack_require__(256);
+	var _constants = __webpack_require__(276);
 	
 	function createRootContainerWrapper(WrappedComponent, store, storeName) {
 	  var RootContainer = (function (_Component) {
@@ -1448,7 +1483,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 259:
+/***/ 279:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1465,7 +1500,7 @@ webpackJsonp([3],{
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
-	var _reactDom = __webpack_require__(159);
+	var _reactDom = __webpack_require__(33);
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
@@ -1556,42 +1591,42 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 260:
+/***/ 280:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; /* eslint react/no-multi-comp:0, no-console:0 */
 	
-	var _rcForm = __webpack_require__(160);
+	var _rcForm = __webpack_require__(179);
 	
 	var _react = __webpack_require__(2);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactDataBinding = __webpack_require__(247);
+	var _reactDataBinding = __webpack_require__(266);
 	
-	var _reactDom = __webpack_require__(159);
+	var _reactDom = __webpack_require__(33);
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _styles = __webpack_require__(244);
+	var _styles = __webpack_require__(258);
 	
-	var _switch = __webpack_require__(261);
+	var _switch = __webpack_require__(281);
 	
 	var _switch2 = _interopRequireDefault(_switch);
 	
-	__webpack_require__(265);
+	__webpack_require__(285);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
 	
 	var createFormContainer = (0, _reactDataBinding.createContainer)(function (state) {
 	  return {
@@ -1599,7 +1634,7 @@ webpackJsonp([3],{
 	  };
 	});
 	
-	var TopForm = _react2["default"].createClass({
+	var TopForm = _react2.default.createClass({
 	  displayName: 'TopForm',
 	
 	  propTypes: {
@@ -1608,23 +1643,23 @@ webpackJsonp([3],{
 	  },
 	
 	  render: function render() {
-	    var _props = this.props;
-	    var form = _props.form;
-	    var on = _props.on;
+	    var _props = this.props,
+	        form = _props.form,
+	        on = _props.on;
 	    var getFieldProps = form.getFieldProps;
 	
-	    return _react2["default"].createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { style: _styles.regionStyle },
-	      _react2["default"].createElement(
-	        'p',
+	      _react2.default.createElement(
+	        'div',
 	        null,
 	        'has email? '
 	      ),
-	      _react2["default"].createElement(
-	        'p',
+	      _react2.default.createElement(
+	        'div',
 	        null,
-	        _react2["default"].createElement(_switch2["default"], getFieldProps('on', {
+	        _react2.default.createElement(_switch2.default, getFieldProps('on', {
 	          initialValue: on,
 	          valuePropName: 'checked'
 	        }))
@@ -1634,7 +1669,7 @@ webpackJsonp([3],{
 	});
 	TopForm = createFormContainer(TopForm);
 	
-	var BottomForm = _react2["default"].createClass({
+	var BottomForm = _react2.default.createClass({
 	  displayName: 'BottomForm',
 	
 	  propTypes: {
@@ -1643,25 +1678,25 @@ webpackJsonp([3],{
 	  },
 	
 	  render: function render() {
-	    var _props2 = this.props;
-	    var form = _props2.form;
-	    var on = _props2.on;
+	    var _props2 = this.props,
+	        form = _props2.form,
+	        on = _props2.on;
 	
 	    var style = _extends({}, _styles.regionStyle, {
 	      display: on ? 'block' : 'none'
 	    });
-	    return _react2["default"].createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      { style: style },
-	      _react2["default"].createElement(
-	        'p',
+	      _react2.default.createElement(
+	        'div',
 	        null,
 	        'email: '
 	      ),
-	      _react2["default"].createElement(
-	        'p',
+	      _react2.default.createElement(
+	        'div',
 	        null,
-	        _react2["default"].createElement('input', form.getFieldProps('email', {
+	        _react2.default.createElement('input', form.getFieldProps('email', {
 	          rules: [{
 	            type: 'email'
 	          }],
@@ -1674,7 +1709,7 @@ webpackJsonp([3],{
 	
 	BottomForm = createFormContainer(BottomForm);
 	
-	var Form = _react2["default"].createClass({
+	var Form = _react2.default.createClass({
 	  displayName: 'Form',
 	
 	  propTypes: {
@@ -1687,15 +1722,15 @@ webpackJsonp([3],{
 	  render: function render() {
 	    var form = this.props.form;
 	
-	    return _react2["default"].createElement(
+	    return _react2.default.createElement(
 	      'div',
 	      null,
-	      _react2["default"].createElement(TopForm, { form: form }),
-	      _react2["default"].createElement(BottomForm, { form: form }),
-	      _react2["default"].createElement(
+	      _react2.default.createElement(TopForm, { form: form }),
+	      _react2.default.createElement(BottomForm, { form: form }),
+	      _react2.default.createElement(
 	        'div',
 	        { style: _styles.regionStyle },
-	        _react2["default"].createElement(
+	        _react2.default.createElement(
 	          'button',
 	          { onClick: this.onSubmit },
 	          'submit'
@@ -1730,27 +1765,24 @@ webpackJsonp([3],{
 	  function App() {
 	    _classCallCheck(this, App);
 	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(App).apply(this, arguments));
+	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
 	  }
 	
-	  _createClass(App, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2["default"].createElement(
-	        'div',
+	  App.prototype.render = function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(
+	        'h2',
 	        null,
-	        _react2["default"].createElement(
-	          'h2',
-	          null,
-	          'integrate with react-data-binding'
-	        ),
-	        _react2["default"].createElement(Form, null)
-	      );
-	    }
-	  }]);
+	        'integrate with react-data-binding'
+	      ),
+	      _react2.default.createElement(Form, null)
+	    );
+	  };
 	
 	  return App;
-	}(_react2["default"].Component);
+	}(_react2.default.Component);
 	
 	var NewApp = (0, _reactDataBinding.createRootContainer)({
 	  formState: {
@@ -1758,11 +1790,11 @@ webpackJsonp([3],{
 	  }
 	})(App);
 	
-	_reactDom2["default"].render(_react2["default"].createElement(NewApp, null), document.getElementById('__react-content'));
+	_reactDom2.default.render(_react2.default.createElement(NewApp, null), document.getElementById('__react-content'));
 
 /***/ },
 
-/***/ 261:
+/***/ 281:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1770,10 +1802,13 @@ webpackJsonp([3],{
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+	exports["default"] = undefined;
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _rcSwitch = __webpack_require__(262);
+	var _class, _temp;
+	
+	var _rcSwitch = __webpack_require__(282);
 	
 	var _rcSwitch2 = _interopRequireDefault(_rcSwitch);
 	
@@ -1781,55 +1816,74 @@ webpackJsonp([3],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _classnames = __webpack_require__(264);
+	var _classnames = __webpack_require__(284);
 	
 	var _classnames2 = _interopRequireDefault(_classnames);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
 	
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 	
-	exports.default = _react2.default.createClass({
-	  displayName: 'switch',
-	  getDefaultProps: function getDefaultProps() {
-	    return {
-	      prefixCls: 'ant-switch'
-	    };
-	  },
-	  render: function render() {
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
+	
+	var Switch = (_temp = _class = function (_React$Component) {
+	  _inherits(Switch, _React$Component);
+	
+	  function Switch() {
+	    _classCallCheck(this, Switch);
+	
+	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
+	  }
+	
+	  Switch.prototype.render = function render() {
 	    var _classNames;
 	
-	    var _props = this.props;
-	    var prefixCls = _props.prefixCls;
-	    var size = _props.size;
-	    var className = _props.className;
+	    var _props = this.props,
+	        prefixCls = _props.prefixCls,
+	        size = _props.size,
+	        className = _props.className;
 	
-	    var cls = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, className, !!className), _defineProperty(_classNames, prefixCls + '-small', size === 'small'), _classNames));
-	    return _react2.default.createElement(_rcSwitch2.default, _extends({ className: cls }, this.props));
-	  }
-	});
+	    var cls = (0, _classnames2["default"])((_classNames = {}, _defineProperty(_classNames, className, !!className), _defineProperty(_classNames, prefixCls + '-small', size === 'small'), _classNames));
+	    return _react2["default"].createElement(_rcSwitch2["default"], _extends({ className: cls }, this.props));
+	  };
+	
+	  return Switch;
+	}(_react2["default"].Component), _class.defaultProps = {
+	  prefixCls: 'ant-switch'
+	}, _temp);
+	exports["default"] = Switch;
 	module.exports = exports['default'];
 
 /***/ },
 
-/***/ 262:
+/***/ 282:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	module.exports = __webpack_require__(263);
+	module.exports = __webpack_require__(283);
 
 /***/ },
 
-/***/ 263:
+/***/ 283:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 	
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 	
 	var React = __webpack_require__(2);
-	var classNames = __webpack_require__(264);
+	var classNames = __webpack_require__(284);
 	
 	function noop() {}
 	
@@ -1840,15 +1894,14 @@ webpackJsonp([3],{
 	    className: React.PropTypes.string,
 	    prefixCls: React.PropTypes.string,
 	    disabled: React.PropTypes.bool,
-	    style: React.PropTypes.object,
 	    checkedChildren: React.PropTypes.any,
 	    unCheckedChildren: React.PropTypes.any,
-	    onChange: React.PropTypes.func
+	    onChange: React.PropTypes.func,
+	    onMouseUp: React.PropTypes.func
 	  },
 	  getDefaultProps: function getDefaultProps() {
 	    return {
 	      prefixCls: 'rc-switch',
-	      style: {},
 	      checkedChildren: null,
 	      unCheckedChildren: null,
 	      className: '',
@@ -1875,14 +1928,34 @@ webpackJsonp([3],{
 	      });
 	    }
 	  },
-	  toggle: function toggle() {
-	    var checked = !this.state.checked;
+	  setChecked: function setChecked(checked) {
 	    if (!('checked' in this.props)) {
 	      this.setState({
 	        checked: checked
 	      });
 	    }
 	    this.props.onChange(checked);
+	  },
+	  toggle: function toggle() {
+	    var checked = !this.state.checked;
+	    this.setChecked(checked);
+	  },
+	  handleKeyDown: function handleKeyDown(e) {
+	    if (e.keyCode === 37) {
+	      this.setChecked(false);
+	    }
+	    if (e.keyCode === 39) {
+	      this.setChecked(true);
+	    }
+	  },
+	  // Handle auto focus when click switch in Chrome
+	  handleMouseUp: function handleMouseUp(e) {
+	    if (this.refs.node) {
+	      this.refs.node.blur();
+	    }
+	    if (this.props.onMouseUp) {
+	      this.props.onMouseUp(e);
+	    }
 	  },
 	  render: function render() {
 	    var _classNames;
@@ -1891,17 +1964,22 @@ webpackJsonp([3],{
 	    var className = _props.className;
 	    var prefixCls = _props.prefixCls;
 	    var disabled = _props.disabled;
-	    var style = _props.style;
 	    var checkedChildren = _props.checkedChildren;
 	    var unCheckedChildren = _props.unCheckedChildren;
+	
+	    var restProps = _objectWithoutProperties(_props, ['className', 'prefixCls', 'disabled', 'checkedChildren', 'unCheckedChildren']);
 	
 	    var checked = this.state.checked;
 	    var switchClassName = classNames((_classNames = {}, _defineProperty(_classNames, className, !!className), _defineProperty(_classNames, prefixCls, true), _defineProperty(_classNames, prefixCls + '-checked', checked), _defineProperty(_classNames, prefixCls + '-disabled', disabled), _classNames));
 	    return React.createElement(
 	      'span',
-	      { className: switchClassName,
+	      _extends({}, restProps, {
+	        className: switchClassName,
+	        tabIndex: '0',
+	        ref: 'node',
+	        onKeyDown: this.handleKeyDown,
 	        onClick: disabled ? noop : this.toggle,
-	        style: style },
+	        onMouseUp: this.handleMouseUp }),
 	      React.createElement(
 	        'span',
 	        { className: prefixCls + '-inner' },
@@ -1915,7 +1993,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 264:
+/***/ 284:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -1970,7 +2048,7 @@ webpackJsonp([3],{
 
 /***/ },
 
-/***/ 265:
+/***/ 285:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
